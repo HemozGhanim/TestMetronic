@@ -1,0 +1,40 @@
+<p>
+  Table is just a mapping of objects to table rows with <code>&#64;for</code>
+</p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">email</th>
+      <th scope="col">Frist Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">UserName</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (user of users; track user.id) {
+    <tr>
+      <th scope="row">{{ user.id }}</th>
+      <td>
+        {{ user.email }}
+      </td>
+      <td>{{ user.firstName }}</td>
+      <td>{{ user.lastName }}</td>
+      <td>{{ user.username }}</td>
+      <td>
+        <i
+          class="items-center justify-center text-base text-center btn btn-sm btn-icon btn-clear btn-light d-flex ki-outline ki-notepad-edit edit-btn"
+        ></i>
+      </td>
+      <td>
+        <i
+          class="items-center justify-center text-base text-center btn btn-sm btn-icon btn-clear btn-light d-flex ki-outline ki-trash delete-btn"
+        ></i>
+      </td>
+    </tr>
+    }
+  </tbody>
+</table>

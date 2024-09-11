@@ -1,0 +1,382 @@
+<div>
+  <div class="mb-10 container-fixed">
+    <div class="grid grid-cols-3 gap-4">
+      <div class="col-span-1">
+        <div class="grid grid-cols-2 gap-1 lg:gap-7.5 h-1/2 items-stretch">
+          <div
+            class="card flex-col justify-between gap-3 h-full bg-cover bg-[50%] bg-no-repeat bg-[url('/assets/media/app/likecard/bg-3.png')] dark:bg-[url('/assets/media/app/likecard/bg-3-dark.png')]"
+          >
+            <img
+              alt=""
+              class="mt-4 w-9 ms-5"
+              src="/assets/media/brand-logos/linkedin-2.svg"
+            />
+            <div class="flex flex-col gap-1 px-5 pb-4">
+              <span class="text-3xl font-semibold text-gray-900"> 9.3k </span>
+              <span class="font-normal text-gray-700 text-2sm">
+                Amazing mates
+              </span>
+            </div>
+          </div>
+          <div
+            class="card flex-col justify-between gap-6 h-full bg-cover bg-[50%] bg-no-repeat bg-[url('/assets/media/app/likecard/bg-3.png')] dark:bg-[url('/assets/media/app/likecard/bg-3-dark.png')]"
+          >
+            <img
+              alt=""
+              class="mt-4 w-9 ms-5"
+              src="/assets/media/brand-logos/youtube-2.svg"
+            />
+            <div class="flex flex-col gap-1 px-5 pb-4">
+              <span class="text-3xl font-semibold text-gray-900"> 24k </span>
+              <span class="font-normal text-gray-700 text-2sm">
+                Lessons Views
+              </span>
+            </div>
+          </div>
+          <div
+            class="card flex-col justify-between gap-6 h-full bg-cover bg-[50%] bg-no-repeat bg-[url('/assets/media/app/likecard/bg-3.png')] dark:bg-[url('/assets/media/app/likecard/bg-3-dark.png')]"
+          >
+            <img
+              alt=""
+              class="mt-4 w-9 ms-5"
+              src="/assets/media/brand-logos/instagram-03.svg"
+            />
+            <div class="flex flex-col gap-1 px-5 pb-4">
+              <span class="text-3xl font-semibold text-gray-900"> 608 </span>
+              <span class="font-normal text-gray-700 text-2sm">
+                New subscribers
+              </span>
+            </div>
+          </div>
+          <div
+            class="card flex-col justify-between gap-6 h-full bg-cover bg-[50%] bg-no-repeat bg-[url('/assets/media/app/likecard/bg-3.png')] dark:bg-[url('/assets/media/app/likecard/bg-3-dark.png')]"
+          >
+            <img
+              alt=""
+              class="mt-4 dark:hidden w-9 ms-5"
+              src="/assets/media/brand-logos/tiktok.svg"
+            />
+            <img
+              alt=""
+              class="mt-4 light:hidden w-9 ms-5"
+              src="/assets/media/brand-logos/tiktok-dark.svg"
+            />
+            <div class="flex flex-col gap-1 px-5 pb-4">
+              <span class="text-3xl font-semibold text-gray-900"> 2.5k </span>
+              <span class="font-normal text-gray-700 text-2sm">
+                Stream audience
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-2 card">
+        <div
+          class="card-body p-10 back bg-[url('/assets/media/app/likecard/card-bg.png')] bg-[length:100%] dark:bg-[url('/assets/media/app/likecard/card-bg-dark.png')] bg-[180px] bg-no-repeat"
+        >
+          <div class="flex flex-col justify-center gap-4">
+            <div class="flex -space-x-2">
+              <img
+                class="relative rounded-full hover:z-5 size-10 shrink-0 ring-2 ring-light-light"
+                src="/assets/media/avatars/300-1.png"
+              />
+              <img
+                class="relative rounded-full hover:z-5 size-10 shrink-0 ring-2 ring-light-light"
+                src="/assets/media/avatars/300-2.png"
+              />
+              <div
+                class="relative inline-flex items-center justify-center text-xs font-semibold rounded-full hover:z-5 size-10 shrink-0 ring-2 ring-light-light border-info-light bg-info text-info-inverse"
+              >
+                A
+              </div>
+              <img
+                class="relative rounded-full hover:z-5 size-10 shrink-0 ring-2 ring-light-light"
+                src="/assets/media/avatars/300-3.png"
+              />
+              <span
+                class="relative inline-flex items-center justify-center text-xs font-semibold leading-none rounded-full size-10 shrink-0 ring-2 text-success-inverse ring-success-light bg-success"
+              >
+                +3
+              </span>
+            </div>
+            <h2 class="text-1.5xl font-semibold text-gray-900 capitalize">
+              Connect Today & Join <br />
+              <router-link
+                class="cursor-pointer link"
+                [routerLink]="['/home']"
+                routerLinkActive="active"
+                >the KeenThemes Network</router-link
+              >
+            </h2>
+            <p class="text-sm font-normal text-gray-700 leading-5.5">
+              Enhance your projects with premium themes and <br />
+              templates. Join the KeenThemes community today <br />
+              for top-quality designs and resources.
+            </p>
+          </div>
+        </div>
+        <div class="justify-center card-footer">
+          <router-link
+            class="text-base font-semibold capitalize btn btn-link"
+            [routerLink]="['/home']"
+          >
+            Get Started
+          </router-link>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="grid grid-cols-3 gap-4 container-fixed">
+    <div class="col-span-1">
+      <div class="h-full card">
+        <div class="card-header">
+          <h3 class="card-title">Highlights</h3>
+          <div class="menu menu-default" data-menu="true">
+            <div
+              class="menu-item menu-item-dropdown"
+              data-menu-item-placement="bottom-end"
+              data-menu-item-toggle="dropdown"
+              data-menu-item-trigger="click|lg:click"
+              data-menu-item-offset="0, 10px"
+            >
+              <button
+                class="menu-toggle btn btn-light btn-sm btn-icon btn-clear"
+              >
+                <i class="ki-filled ki-dots-vertical"> </i>
+              </button>
+
+              <div class="w-48 py-2 menu-dropdown">
+                <div class="menu-item">
+                  <a class="menu-link" href="#">
+                    <span class="menu-icon">
+                      <i class="ki-outline ki-badge"> </i>
+                    </span>
+                    <span class="menu-title"> Submenu item 1 </span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a class="menu-link" href="#">
+                    <span class="menu-icon">
+                      <i class="ki-outline ki-profile-circle"> </i>
+                    </span>
+                    <span class="menu-title"> Submenu item 1 </span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a class="menu-link" href="#">
+                    <span class="menu-icon">
+                      <i class="ki-outline ki-coffee"> </i>
+                    </span>
+                    <span class="menu-title"> Submenu item 3 </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-body flex flex-col gap-4 p-5 lg:p-7.5 lg:pt-4">
+          <div class="flex flex-col gap-0.5">
+            <span class="text-sm font-normal text-gray-700">
+              All time sales
+            </span>
+            <div class="flex items-center gap-2.5">
+              <span class="text-3xl font-semibold text-gray-900">$295.7k</span>
+              <span class="badge badge-outline badge-success badge-sm"
+                >+2.7%</span
+              >
+            </div>
+          </div>
+          <div class="flex items-center gap-1 mb-1.5">
+            <div class="bg-success h-2 w-full max-w-[60%] rounded-sm"></div>
+            <div class="bg-brand h-2 w-full max-w-[25%] rounded-sm"></div>
+            <div class="bg-info h-2 w-full max-w-[15%] rounded-sm"></div>
+          </div>
+          <div class="flex flex-wrap items-center gap-4 mb-1">
+            <div class="flex items-center gap-1.5">
+              <span class="badge badge-dot size-2 badge-success"> </span>
+              <span class="text-sm font-normal text-gray-800"> Metronic </span>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <span class="badge badge-dot size-2 badge-danger"> </span>
+              <span class="text-sm font-normal text-gray-800"> Bundle </span>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <span class="badge badge-dot size-2 badge-info"> </span>
+              <span class="text-sm font-normal text-gray-800">
+                MetronicNest
+              </span>
+            </div>
+          </div>
+          <div class="grid gap-3">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <div class="flex items-center gap-1.5">
+                <i class="text-base text-gray-500 ki-filled ki-shop"> </i>
+                <span class="text-sm font-normal text-gray-900">
+                  Online Store
+                </span>
+              </div>
+              <div
+                class="flex items-center gap-6 text-sm font-medium text-gray-800"
+              >
+                <span class="lg:text-right"> $172k </span>
+                <span class="lg:text-right">
+                  <i class="ki-filled ki-arrow-up text-success"> </i>
+                  3.9%
+                </span>
+              </div>
+            </div>
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <div class="flex items-center gap-1.5">
+                <i class="text-base text-gray-500 ki-filled ki-facebook"> </i>
+                <span class="text-sm font-normal text-gray-900">
+                  Facebook
+                </span>
+              </div>
+              <div
+                class="flex items-center gap-6 text-sm font-medium text-gray-800"
+              >
+                <span class="lg:text-right"> $85k </span>
+                <span class="lg:text-right">
+                  <i class="ki-filled ki-arrow-down text-danger"> </i>
+                  0.7%
+                </span>
+              </div>
+            </div>
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <div class="flex items-center gap-1.5">
+                <i class="text-base text-gray-500 ki-filled ki-instagram"> </i>
+                <span class="text-sm font-normal text-gray-900">
+                  Instagram
+                </span>
+              </div>
+              <div
+                class="flex items-center gap-6 text-sm font-medium text-gray-800"
+              >
+                <span class="lg:text-right"> $36k </span>
+                <span class="lg:text-right">
+                  <i class="ki-filled ki-arrow-up text-success"> </i>
+                  8.2%
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-span-2">
+      <div class="grid">
+        <div class="min-w-full card card-grid">
+          <div class="flex-wrap py-5 card-header">
+            <div class="flex flex-col justify-center gap-2">
+              <h1 class="text-xl font-medium leading-none text-gray-900">
+                Users Management
+              </h1>
+              <div
+                class="flex items-center gap-2 text-sm font-normal text-gray-700 capitalize"
+              >
+                Central Hub for users Customization
+              </div>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <a class="btn btn-sm btn-light" href="#"> Add Users </a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div
+              data-datatable="false"
+              data-datatable-page-size="5"
+              data-datatable-state-save="true"
+              id="kt_remote_table"
+            >
+              <div class="scrollable-x-auto">
+                <table
+                  class="table table-auto table-border"
+                  data-datatable-table="true"
+                >
+                  <thead>
+                    <tr>
+                      <th
+                        class="w-[100px] text-center"
+                        data-datatable-column="id"
+                      >
+                        <span class="text-center sort asc">
+                          <span class="sort-label"> id </span>
+                          <span class="sort-icon"> </span>
+                        </span>
+                      </th>
+                      <th class="min-w-[185px]" data-datatable-column="email">
+                        <span class="sort">
+                          <span class="sort-label"> Email </span>
+                          <span class="sort-icon"> </span>
+                        </span>
+                      </th>
+                      <th class="w-[185px]" data-datatable-column="firstName">
+                        <span class="sort">
+                          <span class="sort-label"> Frist Name </span>
+                          <span class="sort-icon"> </span>
+                        </span>
+                      </th>
+                      <th class="w-[185px]" data-datatable-column="lastName">
+                        <span class="sort">
+                          <span class="sort-label"> Last Name </span>
+                          <span class="sort-icon"> </span>
+                        </span>
+                      </th>
+                      <th class="w-[185px]" data-datatable-column="username">
+                        <span class="sort">
+                          <span class="sort-label">
+                            <span
+                              class="pt-px"
+                              data-tooltip="true"
+                              data-tooltip-offset="0, 5px"
+                              data-tooltip-placement="top"
+                            >
+                              <i
+                                class="text-lg leading-none ki-outline ki-information-2"
+                              >
+                              </i>
+                              <span
+                                class="tooltip max-w-48"
+                                data-tooltip-content="true"
+                              >
+                                Unique userName for every user
+                              </span>
+                            </span>
+                            User Name
+                          </span>
+                          <span class="sort-icon"> </span>
+                        </span>
+                      </th>
+                      <th class="w-[60px]" data-datatable-column="edit"></th>
+                      <th class="w-[60px]" data-datatable-column="delete"></th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+              <div
+                class="flex-col justify-center gap-3 font-medium text-gray-600 card-footer md:justify-between md:flex-row text-2sm"
+              >
+                <div class="flex items-center gap-2">
+                  Show
+                  <select
+                    class="w-16 select select-sm"
+                    data-datatable-size="true"
+                    name="perpage"
+                  ></select>
+                  per page
+                </div>
+                <div class="flex items-center gap-4">
+                  <span data-datatable-info="true"> </span>
+                  <div
+                    class="pagination"
+                    data-datatable-pagination="true"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
